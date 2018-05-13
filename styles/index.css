@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+}
+
+/* .center {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+} */
+
+.top-bar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.weather-info-box{
+    margin-top: -150px;
+}
+
+#main{
+    background-image: url("/resources/wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.myText{
+    fill: none;
+    stroke: white;
+    stroke-width:2px;
+    stroke-linejoin: round;
+   }
+
+   svg{
+    font: bold 50px 'Arial';
+    width: 50%;
+    height: 50px;
+   }
