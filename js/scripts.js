@@ -44,6 +44,5 @@ function getOnlyTemperature(str){
 }
 
 function round(temp){
-    console.log("round: " + Math.round((temp * 10) / 10));
-    return Math.round((temp * 10) / 10);
+    return Math.round((temp * 100)) / 100;
 }

@@ -15,7 +15,7 @@ body, html {
 }
 
 .weather-info-box{
-    margin-top: -150px;
+    margin-top: 150px;
 }
 
 #main{
@@ -25,14 +25,7 @@ body, html {
 }
 
 .myText{
-    fill: none;
-    stroke: white;
-    stroke-width:2px;
-    stroke-linejoin: round;
-   }
-
-   svg{
-    font: bold 50px 'Arial';
-    width: 50%;
-    height: 50px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.00px; 
    }
